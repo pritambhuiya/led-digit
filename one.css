@@ -1,0 +1,50 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color:linen;
+}
+
+.outer {
+  width: 960px;
+  height: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-part {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.top-part > div,
+.outer > .base {
+  background-color: #7e6c6c;
+}
+
+.stand {
+  width: 5%;
+  height: 100%;
+  border-top-left-radius: 100%;
+}
+
+.roof {
+  width: 30%;
+  height: 5%;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  position: relative;
+  left: 5%;
+}
+
+.base {
+  width: 20%;
+  height: 2%;
+  position: relative;
+  left: 5.5%;
+}
